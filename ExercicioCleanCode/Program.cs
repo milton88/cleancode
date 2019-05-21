@@ -6,7 +6,11 @@ namespace ExercicioCleanCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Exercicio01.Solucao1.Program.Execute();
+            Exercicio01.Solucao2.Program.Execute();
+            Exercicio01.Solucao3.Program.Execute();
+
+            Console.ReadKey();
         }
     }
 }
